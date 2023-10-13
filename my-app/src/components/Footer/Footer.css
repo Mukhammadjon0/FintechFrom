@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999999999999;
+  bottom: 0;
+  padding: 24px;
+  background-color: black;
+  box-shadow: 2px 2px 2px rgb(28, 28, 28);
+}
+
+footer button {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  width: 700px;
+  cursor: pointer;
+}
